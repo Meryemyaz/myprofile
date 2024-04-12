@@ -1,0 +1,148 @@
+body { 
+	background-color: #01394B;
+	color: #01394B;
+	font-family: andale mono;
+	line-height: 20px;
+	text-align: center;
+}
+
+h1 { 
+	color: #01394B;
+	font-family: Georgia (serif);
+	text-align: center;
+	letter-spacing: 0.25;
+}
+
+a{
+	text-decoration: none;
+}
+h2, h3, h4 {
+	font-family: impact; 
+	letter-spacing: 0.15em;
+	color: rgb(8, 143, 143);
+}
+
+a {
+	text-decoration: none;
+	color: #FFDDCC;
+}
+
+a:hover {
+	color: #7F9A42;
+}
+
+
+#first-photo{
+  width: 150%; 
+  height: auto; 
+  max-width: 100px;
+  display: block;  
+  margin: 0  auto; 
+  border-radius: 0; 
+}
+
+
+.btn-blue {
+background-color:rgb(8, 143, 143);
+color: #01394B;
+padding: 6px 20px;
+border-radius: 4px;
+}
+
+.btn-blue:hover {
+background-color:#7F9A42;
+color: floralwhite;
+font-weight:   200
+
+}
+
+
+
+.profile {
+border-radius: 50%;
+max-width: 100%;
+height: auto;
+}
+
+@media (max-width:760px) {
+	.profile{
+		width:600px;
+         }
+}
+
+@media(max-width: 500px) {
+	.profile{
+		width:400px;
+	}
+}
+
+
+#intro {
+background-color: #C3DBD9;
+
+}
+
+#intro p {
+margin-bottom: 20px;
+
+}
+#section2 {
+background-color: #C3DBD9;
+
+}
+
+#section3 {
+background-color: #C3DBD9;
+
+}
+
+#section4 {
+background-color: #ECB390;
+
+}
+
+#section5 {
+background-color: #C3DBD9;
+
+}
+.font-styles {
+	margin-bottom: 5px;
+	justify-content: center;
+	border-radius: 1px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+	margin: 70px;
+	border: 2px solid;
+	padding: 12px;
+}
+
+.list-inline {
+list-style: none;
+padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 30px;
+	color: #FFDDCC;
+}
+
+.list-inline i:hover {
+	color: #99154E;
+}
+
+#section4 {
+  text-align: center;
+
+}
+
+.elfsight-app-834d7745-25fa-4065-b200-c209efd16b5d {
+  margin: 0 auto;
+  display: flex;
+justify-content: center;
+align-items: center;
+
+}
